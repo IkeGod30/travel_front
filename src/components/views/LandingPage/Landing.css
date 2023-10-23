@@ -1,0 +1,51 @@
+ /* ###### LANDING PAGE STYLE SHEET ####### */
+
+  /* 1. ###### LandingPage.js style ####### */
+
+
+  .landingDiv {
+    width: 75%;
+    margin: 3rem auto;
+  }
+
+
+  .landingDiv2 {
+    text-align: center;
+    color: rgb(237, 77, 125);
+  }
+
+
+  .searchDiv {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem auto;
+  }
+
+  .noProduct {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loadMore {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* 2. ###### checkBox.js style ####### */
+
+  .checkName {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 20px;
+    
+  }
+
+   /* 3. ###### RadioBox.js style ####### */
+
+   .RadioName {
+    font-size: 13px;
+    font-weight: bold;
+   }

@@ -1,0 +1,27 @@
+  /* ###### DETAIL PRODUCT PAGE DIRECTORY STYLE SHEET ####### */
+
+  /* 1. ###### ProductInfo.js style ####### */
+
+
+.productInfoDiv {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* 2. ###### DetailProductPage.js style ####### */
+
+.postPage {
+    width: 100%;
+    padding: 3rem 4rem;
+
+}
+
+.productTitleDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.del {
+    margin-top: 20px;
+}

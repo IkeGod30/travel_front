@@ -1,0 +1,30 @@
+
+
+  /* ###### UploadProductPage.js style ####### */
+
+.uploadProductDiv {
+    max-width: 700px;
+    margin: 2rem auto;
+}
+
+
+.uploadProductDiv2 {
+    text-align: center;
+    margin-bottom: 2rem;
+   
+}
+
+.uploadTitle {
+    margin-top: 3rem;
+
+}
+
+.uploadTitle:only-child {
+    color: rgb(237, 77, 125);
+
+}
+
+label.formLabel, select.formLabel {
+    font-size: 24px;
+}
+

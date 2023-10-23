@@ -1,0 +1,53 @@
+
+                /* ###### UTIL DIRECTORY STYLE SHEET ####### */
+
+
+/* 1. ###### FileUpLoad.js style ####### */
+
+div.dropzoneDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.UploadDiv {
+    width: 300px;
+    height: 240px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.UploadAnchor {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.UploadAnchor:hover {
+    text-decoration: underline;
+}
+
+.ImgDiv {
+    display: flex;
+    width: 350px;
+    height: 240px;
+    overflow-x: scroll;
+    border: 1px solid grey;
+}
+
+
+.ImgContent {
+    min-width: 300px;
+    width: 300px;
+    height: 240px;
+}
+
+
+/* 2.  ###### ImageSlider.js style ####### */
+
+.ImgSlider {
+    width: 100%;
+    max-height: 150px;
+}
+
