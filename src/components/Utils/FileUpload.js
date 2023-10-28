@@ -51,7 +51,8 @@ function FileUpload(props) {
          <div className='ImgDiv'>
             {Images.map((image, index) =>  (
                 <div onClick={() => onDelete(image)}>
-                    <img className='ImgContent' src={`http://localhost:5000/${image}`} alt={`productImg-${index}`} />
+                    {/* <img className='ImgContent' src={`http://localhost:5000/${image}`} alt={`productImg-${index}`} /> */}
+                    <img className='ImgContent' src={`https://travel-backend-eight.vercel.app`} alt={`productImg-${index}`} />
                 </div>
         ))}
         </div>
