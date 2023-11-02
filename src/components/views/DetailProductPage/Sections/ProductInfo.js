@@ -13,12 +13,7 @@ function ProductInfo(props) {
         const addToCarthandler = () => {
             props.addToCart(props.detail._id)   
          }
-
-        //  function Delete() {
-        //     alert('You are about to delete this item')
-        //  }
-
-
+     
 
   return (
     <div>
