@@ -35,14 +35,6 @@ function ProductInfo(props) {
                     Add to Cart
             </button>
         </div>
-        <div className='productInfoDiv'>
-            {/* <button className='btn btn-outline-warning btn-lg del' size="large" shape="round" type="danger"
-                    onClick={Delete} 
-            
-            >   
-                    Delete Item      
-            </button> */}
-        </div>
     </div>
   )
 }
