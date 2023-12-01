@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import { Route, Switch, BrowserRouter } from "react-router-dom";
-// import { BrowserRouter } from "react-router-dom"; //
+
 import Auth from "../hoc/auth";
 // pages for this product
 import LandingPage from "./views/LandingPage/LandingPage.js";
